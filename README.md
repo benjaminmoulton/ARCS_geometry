@@ -26,8 +26,10 @@ The input file should have a dictionary with the key "C14". The following keys a
 >>Which type of arc to create. The options and corresponding descriptions are:
 >>>"exponential"
 >>>>Create the arcs as having radii inversely increasing from the leading edge toward the trailing edge. The corresponding radius at the hinge point will be equal to the half thickness, with the radius at the trailing edge increasing to infinity.
+>>>>
 >>>"reversed_exp"
 >>>>Create the arcs as having radii inversely decreasing from the leading edge toward the trailing edge. The corresponding radius at the hinge point will be at infinity, with the radius at the trailing edge decreasing to the half thickness.
+>>>>
 >>>"90%t"
 >>>>Create the arcs as having radii decreasing from the leading edge toward the trailing edge. The corresponding radius at the hinge point will be at nine tenths of the local thickness, with the radius at the trailing edge decreasing to nine tenths of the local thickness.
 >>>"hinge_point"
@@ -91,8 +93,10 @@ The input file should have a dictionary with the key "C14". The following keys a
 >>Which type of deflection to create. The options and corresponding descriptions are:
 >>>"none"
 >>>>Plots no deflection.
+>>>>
 >>>"traditional"
 >>>>Plots articulated deflection(s) at the amount(s) specified.
+>>>>
 >>>"parabolic"
 >>>>Plots parabolic deflection(s) at the amount(s) specified.
 >>>>
