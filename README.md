@@ -32,6 +32,7 @@ The input file should have a dictionary with the key "C14". The following keys a
 >>>>
 >>>"90%t"
 >>>>Create the arcs as having radii decreasing from the leading edge toward the trailing edge. The corresponding radius at the hinge point will be at nine tenths of the local thickness, with the radius at the trailing edge decreasing to nine tenths of the local thickness.
+>>>>
 >>>"hinge_point"
 >>>>Create the arcs as having radii increasing from the leading edge toward the trailing edge. The corresponding arc at each location is centered at the hinge point.
 >>>>
