@@ -1,6 +1,6 @@
 {
     "C14" : {
-        "airfoil dat file location" : "/home/ben/foilshapes/NACA 0009.txt",
+        "airfoil dat file location" : "NACA 0009.txt",
         "chord [in]" : 12.0,
         "num arcs" : 5,
         "num arc points" : 30,
