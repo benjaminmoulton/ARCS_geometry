@@ -25,8 +25,10 @@ The input file should have a dictionary with the key "C14". The following keys a
 >**"arc type" : string**
 >>Which type of arc to create. The options and corresponding descriptions are:
 >>>"exponential"
+>>>
 >>>Create the arcs as having radii inversely increasing from the leading edge toward the trailing edge. The corresponding radius at the hinge point will be 
 >>
+
 "arc type" : "exponential",
 "arc type notes" : "'exponential','reversed_exp', '90%t', or 'hinge_point'",
 "section resolution" : 400,
