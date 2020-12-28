@@ -78,6 +78,9 @@ The input file should have a dictionary with the key "C14". The following keys a
 >**"split return" : boolean**
 >>Whether to split off the outer shape for use in generating the files used to model the Horizon aircraft.
 >>
+>**"guide curve return" : boolean**
+>>Whether to split off geometric values concerning the guide curves for use in generating the files used to model the Horizon aircraft.
+>>
 >**"actuation hole return" : boolean**
 >>Whether to split off geometric values concerning the actuation location for use in generating the files used to model the Horizon aircraft.
 >>
